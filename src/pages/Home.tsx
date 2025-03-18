@@ -1,15 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "../components/Navbar";
 import TodayRecipes from "../components/TodayRecipes";
 import Menu from "./Menu";
 import Blog from "../components/Blog";
 import ReservationForm from "../components/ReservationForm";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 const Home: React.FC = () => {
   return (
     <>
-      <Navbar />
+      <Header logo="/images/logo1.png" />
       <section
         id="home"
         className="bg-black text-white min-h-screen flex flex-col justify-center items-center relative"
